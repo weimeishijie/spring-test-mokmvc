@@ -77,7 +77,9 @@
     
     * 比如此处使用MockMvcResultHandlers.print()输出整个相应结果信息
     
-        
+#### 注意：
+
+    * spring-boot-start-test 包版本在 2.1.6.RELEASE 以下注解@RunWith运行正常，超过此版本将会出现运行需要额外配置
     
 
 
